@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FloatingCVButton from "./components/FloatingCVButton";
+import SpotifySection from "./components/SpotifySection";
 
 export default function App() {
   return (
@@ -23,7 +24,9 @@ export default function App() {
       <GlobalJourney />
       <FeaturedMoments />
       <Gallery />
+      <SpotifySection />
       <Contact />
+
       <Footer />
       <FloatingCVButton />
     </div>
